@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24050A2723B6700300DD3BC5 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24050A2623B6700300DD3BC5 /* LoginModel.swift */; };
+		24066D3823982988006FA5DB /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24066D3723982988006FA5DB /* Utility.swift */; };
+		24066D3A23982A2F006FA5DB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24066D3923982A2F006FA5DB /* Localizable.strings */; };
+		240A5AD22392EB3100B2EF0E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240A5AD12392EB3100B2EF0E /* BaseViewController.swift */; };
+		2419452E2360CBAF00FAF7F2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2419452D2360CBAF00FAF7F2 /* Constants.swift */; };
+		241E1CCC2358E9F5003ADFB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E1CCB2358E9F5003ADFB8 /* AppDelegate.swift */; };
+		241E1CD12358E9F5003ADFB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241E1CCF2358E9F5003ADFB8 /* Main.storyboard */; };
+		241E1CD32358E9F6003ADFB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241E1CD22358E9F6003ADFB8 /* Assets.xcassets */; };
+		241E1CD62358E9F6003ADFB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241E1CD42358E9F6003ADFB8 /* LaunchScreen.storyboard */; };
+		241E1CE12358E9F6003ADFB8 /* Tea_GardenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E1CE02358E9F6003ADFB8 /* Tea_GardenTests.swift */; };
+		241E1CEC2358E9F6003ADFB8 /* Tea_GardenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E1CEB2358E9F6003ADFB8 /* Tea_GardenUITests.swift */; };
+		2433755F23E0967400F7C0A6 /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2433755E23E0967400F7C0A6 /* ForgotViewController.swift */; };
+		2433756123E0B07800F7C0A6 /* ForgotPassSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2433756023E0B07800F7C0A6 /* ForgotPassSecondViewController.swift */; };
+		2433756323E0B08A00F7C0A6 /* ForgotPassThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2433756223E0B08A00F7C0A6 /* ForgotPassThirdViewController.swift */; };
+		2433756523E0B6BC00F7C0A6 /* SelectDaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2433756423E0B6BC00F7C0A6 /* SelectDaysViewController.swift */; };
+		2433756723E0B95000F7C0A6 /* ForgotPassFourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2433756623E0B95000F7C0A6 /* ForgotPassFourthViewController.swift */; };
+		2434202B23D757D3006A8ADD /* StaffModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434202A23D757D3006A8ADD /* StaffModel.swift */; };
+		2436575323DF5C9C0003C770 /* ForgotPassword.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2436575223DF5C9C0003C770 /* ForgotPassword.storyboard */; };
+		2438221A23AFEC810072EC6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438221923AFEC810072EC6F /* ContentView.swift */; };
+		2438221C23AFF5450072EC6F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438221B23AFF5450072EC6F /* SettingsViewController.swift */; };
+		24382FA92368836900D96FA2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24382FA82368836900D96FA2 /* LoginViewController.swift */; };
+		24382FAB23688BE700D96FA2 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24382FAA23688BE700D96FA2 /* DashboardViewController.swift */; };
+		24382FAD2368A2C100D96FA2 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24382FAC2368A2C100D96FA2 /* WebService.swift */; };
+		2439CE5423E6B5B600C6CB9B /* DemoAddStaffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2439CE5323E6B5B600C6CB9B /* DemoAddStaffViewController.swift */; };
+		2439E735241CE6E90032D4E0 /* ReportsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2439E734241CE6E90032D4E0 /* ReportsTableViewCell.swift */; };
+		2439E737241CE71A0032D4E0 /* SheetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2439E736241CE71A0032D4E0 /* SheetTableViewCell.swift */; };
+		243A9AF923D4AC27002E3403 /* AddStaff.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243A9AF823D4AC27002E3403 /* AddStaff.storyboard */; };
+		24499DD923DE2CDB00367E28 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24499DD823DE2CDB00367E28 /* WebViewController.swift */; };
+		2450D7E723D8C58100E1E6D3 /* AccessUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450D7E623D8C58100E1E6D3 /* AccessUserViewController.swift */; };
+		2450D7E923D8C94200E1E6D3 /* GardenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450D7E823D8C94200E1E6D3 /* GardenViewController.swift */; };
+		2450D7EB23D8CA4800E1E6D3 /* GarenViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450D7EA23D8CA4800E1E6D3 /* GarenViewTableViewCell.swift */; };
+		2459644C240AAE1C00E2E2BD /* CominSoonPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2459644B240AAE1C00E2E2BD /* CominSoonPopUpViewController.swift */; };
+		2459644E240AAF4A00E2E2BD /* SubscriptionPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2459644D240AAF4A00E2E2BD /* SubscriptionPopUpViewController.swift */; };
+		247067C923C0CB7C00BBDCB8 /* NewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247067C823C0CB7C00BBDCB8 /* NewStoryboard.storyboard */; };
+		24CFF906235E2F02008C9909 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFF905235E2F02008C9909 /* SignUpViewController.swift */; };
+		24CFF908235E3C77008C9909 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFF907235E3C77008C9909 /* HomeViewController.swift */; };
+		24D83A3223D62AAD00BCC38B /* StaffListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D83A3123D62AAD00BCC38B /* StaffListTableViewCell.swift */; };
+		24D83A3423D6346A00BCC38B /* StaffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D83A3323D6346A00BCC38B /* StaffViewController.swift */; };
+		24F7735623A943C900BE4C4F /* SelectDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F7735523A943C900BE4C4F /* SelectDateViewController.swift */; };
+		24F7735823A947E200BE4C4F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F7735723A947E200BE4C4F /* CustomTextField.swift */; };
+		24F9CA6723B27F4D00BE9F5E /* AddStaffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F9CA6623B27F4D00BE9F5E /* AddStaffViewController.swift */; };
+		24F9CA6923B2901A00BE9F5E /* AddGardenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F9CA6823B2901A00BE9F5E /* AddGardenViewController.swift */; };
+		24FA13B623B3569700D5DEB2 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FA13B523B3569700D5DEB2 /* ChangePasswordViewController.swift */; };
+		24FA13B823B3600D00D5DEB2 /* GardenDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FA13B723B3600D00D5DEB2 /* GardenDetailViewController.swift */; };
+		24FA13BB23B36A9A00D5DEB2 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FA13BA23B36A9A00D5DEB2 /* HeaderTableViewCell.swift */; };
+		24FA13BD23B36C6F00D5DEB2 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FA13BC23B36C6F00D5DEB2 /* ButtonTableViewCell.swift */; };
+		24FA13BF23B36F7300D5DEB2 /* SelectMonthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FA13BE23B36F7300D5DEB2 /* SelectMonthViewController.swift */; };
+		24FB71C523BD039300FE4499 /* GardenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FB71C423BD039300FE4499 /* GardenModel.swift */; };
+		24FC79C72393EA7300D1539A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC79C62393EA7300D1539A /* CustomButton.swift */; };
+		24FC79C923943E1B00D1539A /* NewLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC79C823943E1B00D1539A /* NewLoginViewController.swift */; };
+		24FD710E2396CD8900D41907 /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD710D2396CD8900D41907 /* PurchaseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		241E1CDD2358E9F6003ADFB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241E1CC02358E9F5003ADFB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241E1CC72358E9F5003ADFB8;
+			remoteInfo = "Tea Garden";
+		};
+		241E1CE82358E9F6003ADFB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241E1CC02358E9F5003ADFB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241E1CC72358E9F5003ADFB8;
+			remoteInfo = "Tea Garden";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24050A2623B6700300DD3BC5 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		24066D3723982988006FA5DB /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		24066D3923982A2F006FA5DB /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		240A5AD12392EB3100B2EF0E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2419452D2360CBAF00FAF7F2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		241E1CC82358E9F5003ADFB8 /* Zovini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zovini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		241E1CCB2358E9F5003ADFB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		241E1CD02358E9F5003ADFB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		241E1CD22358E9F6003ADFB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		241E1CD52358E9F6003ADFB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		241E1CD72358E9F6003ADFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241E1CDC2358E9F6003ADFB8 /* Tea GardenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tea GardenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		241E1CE02358E9F6003ADFB8 /* Tea_GardenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tea_GardenTests.swift; sourceTree = "<group>"; };
+		241E1CE22358E9F6003ADFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241E1CE72358E9F6003ADFB8 /* Tea GardenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tea GardenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		241E1CEB2358E9F6003ADFB8 /* Tea_GardenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tea_GardenUITests.swift; sourceTree = "<group>"; };
+		241E1CED2358E9F6003ADFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2432E55A23F3188C00466017 /* Tea Reporting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Tea Reporting.entitlements"; sourceTree = "<group>"; };
+		2433755E23E0967400F7C0A6 /* ForgotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		2433756023E0B07800F7C0A6 /* ForgotPassSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassSecondViewController.swift; sourceTree = "<group>"; };
+		2433756223E0B08A00F7C0A6 /* ForgotPassThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassThirdViewController.swift; sourceTree = "<group>"; };
+		2433756423E0B6BC00F7C0A6 /* SelectDaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDaysViewController.swift; sourceTree = "<group>"; };
+		2433756623E0B95000F7C0A6 /* ForgotPassFourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassFourthViewController.swift; sourceTree = "<group>"; };
+		2434202A23D757D3006A8ADD /* StaffModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffModel.swift; sourceTree = "<group>"; };
+		2436575223DF5C9C0003C770 /* ForgotPassword.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ForgotPassword.storyboard; sourceTree = "<group>"; };
+		2438221923AFEC810072EC6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2438221B23AFF5450072EC6F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		24382FA82368836900D96FA2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		24382FAA23688BE700D96FA2 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		24382FAC2368A2C100D96FA2 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		2439CE5323E6B5B600C6CB9B /* DemoAddStaffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAddStaffViewController.swift; sourceTree = "<group>"; };
+		2439E734241CE6E90032D4E0 /* ReportsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsTableViewCell.swift; sourceTree = "<group>"; };
+		2439E736241CE71A0032D4E0 /* SheetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetTableViewCell.swift; sourceTree = "<group>"; };
+		243A9AF823D4AC27002E3403 /* AddStaff.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddStaff.storyboard; sourceTree = "<group>"; };
+		24499DD823DE2CDB00367E28 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		2450D7E623D8C58100E1E6D3 /* AccessUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessUserViewController.swift; sourceTree = "<group>"; };
+		2450D7E823D8C94200E1E6D3 /* GardenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenViewController.swift; sourceTree = "<group>"; };
+		2450D7EA23D8CA4800E1E6D3 /* GarenViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarenViewTableViewCell.swift; sourceTree = "<group>"; };
+		2459644B240AAE1C00E2E2BD /* CominSoonPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CominSoonPopUpViewController.swift; sourceTree = "<group>"; };
+		2459644D240AAF4A00E2E2BD /* SubscriptionPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPopUpViewController.swift; sourceTree = "<group>"; };
+		247067C823C0CB7C00BBDCB8 /* NewStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewStoryboard.storyboard; sourceTree = "<group>"; };
+		24CFF905235E2F02008C9909 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		24CFF907235E3C77008C9909 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		24D83A3123D62AAD00BCC38B /* StaffListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffListTableViewCell.swift; sourceTree = "<group>"; };
+		24D83A3323D6346A00BCC38B /* StaffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffViewController.swift; sourceTree = "<group>"; };
+		24F7735523A943C900BE4C4F /* SelectDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateViewController.swift; sourceTree = "<group>"; };
+		24F7735723A947E200BE4C4F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		24F9CA6623B27F4D00BE9F5E /* AddStaffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStaffViewController.swift; sourceTree = "<group>"; };
+		24F9CA6823B2901A00BE9F5E /* AddGardenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGardenViewController.swift; sourceTree = "<group>"; };
+		24FA13B523B3569700D5DEB2 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		24FA13B723B3600D00D5DEB2 /* GardenDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenDetailViewController.swift; sourceTree = "<group>"; };
+		24FA13BA23B36A9A00D5DEB2 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		24FA13BC23B36C6F00D5DEB2 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		24FA13BE23B36F7300D5DEB2 /* SelectMonthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMonthViewController.swift; sourceTree = "<group>"; };
+		24FB71C423BD039300FE4499 /* GardenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenModel.swift; sourceTree = "<group>"; };
+		24FC79C62393EA7300D1539A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		24FC79C823943E1B00D1539A /* NewLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLoginViewController.swift; sourceTree = "<group>"; };
+		24FD710D2396CD8900D41907 /* PurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
+		C2981B7A57F7C126C07A9E1D /* Pods_Tea_Garden.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tea_Garden.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA80AC68DA9B5D92AA748B9 /* Pods-Tea Garden.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tea Garden.debug.xcconfig"; path = "Target Support Files/Pods-Tea Garden/Pods-Tea Garden.debug.xcconfig"; sourceTree = "<group>"; };
+		F21F0A0B23773C91121EED74 /* Pods-Tea Garden.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tea Garden.release.xcconfig"; path = "Target Support Files/Pods-Tea Garden/Pods-Tea Garden.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		241E1CC52358E9F5003ADFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241E1CD92358E9F6003ADFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241E1CE42358E9F6003ADFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		139E145AA2F30010E2DD5FB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2981B7A57F7C126C07A9E1D /* Pods_Tea_Garden.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		241E1CBF2358E9F5003ADFB8 = {
+			isa = PBXGroup;
+			children = (
+				24066D3923982A2F006FA5DB /* Localizable.strings */,
+				241E1CCA2358E9F5003ADFB8 /* Tea Garden */,
+				241E1CDF2358E9F6003ADFB8 /* Tea GardenTests */,
+				241E1CEA2358E9F6003ADFB8 /* Tea GardenUITests */,
+				241E1CC92358E9F5003ADFB8 /* Products */,
+				2FF858572E5BC2611EEB6ED6 /* Pods */,
+				139E145AA2F30010E2DD5FB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		241E1CC92358E9F5003ADFB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				241E1CC82358E9F5003ADFB8 /* Zovini.app */,
+				241E1CDC2358E9F6003ADFB8 /* Tea GardenTests.xctest */,
+				241E1CE72358E9F6003ADFB8 /* Tea GardenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		241E1CCA2358E9F5003ADFB8 /* Tea Garden */ = {
+			isa = PBXGroup;
+			children = (
+				2432E55A23F3188C00466017 /* Tea Reporting.entitlements */,
+				2433755D23E0964700F7C0A6 /* ForgotPassword */,
+				24D83A3023D62A3F00BCC38B /* Staff */,
+				24FA13B923B36A6D00D5DEB2 /* GardernDetail */,
+				241E1CCB2358E9F5003ADFB8 /* AppDelegate.swift */,
+				241E1CCF2358E9F5003ADFB8 /* Main.storyboard */,
+				241E1CD22358E9F6003ADFB8 /* Assets.xcassets */,
+				241E1CD42358E9F6003ADFB8 /* LaunchScreen.storyboard */,
+				241E1CD72358E9F6003ADFB8 /* Info.plist */,
+				24CFF905235E2F02008C9909 /* SignUpViewController.swift */,
+				24CFF907235E3C77008C9909 /* HomeViewController.swift */,
+				2419452D2360CBAF00FAF7F2 /* Constants.swift */,
+				24382FA82368836900D96FA2 /* LoginViewController.swift */,
+				24382FAA23688BE700D96FA2 /* DashboardViewController.swift */,
+				24382FAC2368A2C100D96FA2 /* WebService.swift */,
+				240A5AD12392EB3100B2EF0E /* BaseViewController.swift */,
+				24FC79C62393EA7300D1539A /* CustomButton.swift */,
+				24FC79C823943E1B00D1539A /* NewLoginViewController.swift */,
+				24FD710D2396CD8900D41907 /* PurchaseViewController.swift */,
+				24066D3723982988006FA5DB /* Utility.swift */,
+				24F7735523A943C900BE4C4F /* SelectDateViewController.swift */,
+				24F7735723A947E200BE4C4F /* CustomTextField.swift */,
+				2438221923AFEC810072EC6F /* ContentView.swift */,
+				2438221B23AFF5450072EC6F /* SettingsViewController.swift */,
+				24F9CA6823B2901A00BE9F5E /* AddGardenViewController.swift */,
+				24FA13B523B3569700D5DEB2 /* ChangePasswordViewController.swift */,
+				24FA13B723B3600D00D5DEB2 /* GardenDetailViewController.swift */,
+				24FA13BE23B36F7300D5DEB2 /* SelectMonthViewController.swift */,
+				24050A2623B6700300DD3BC5 /* LoginModel.swift */,
+				2433756423E0B6BC00F7C0A6 /* SelectDaysViewController.swift */,
+				2459644B240AAE1C00E2E2BD /* CominSoonPopUpViewController.swift */,
+			);
+			path = "Tea Garden";
+			sourceTree = "<group>";
+		};
+		241E1CDF2358E9F6003ADFB8 /* Tea GardenTests */ = {
+			isa = PBXGroup;
+			children = (
+				241E1CE02358E9F6003ADFB8 /* Tea_GardenTests.swift */,
+				241E1CE22358E9F6003ADFB8 /* Info.plist */,
+			);
+			path = "Tea GardenTests";
+			sourceTree = "<group>";
+		};
+		241E1CEA2358E9F6003ADFB8 /* Tea GardenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				241E1CEB2358E9F6003ADFB8 /* Tea_GardenUITests.swift */,
+				241E1CED2358E9F6003ADFB8 /* Info.plist */,
+			);
+			path = "Tea GardenUITests";
+			sourceTree = "<group>";
+		};
+		2433755D23E0964700F7C0A6 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				2433755E23E0967400F7C0A6 /* ForgotViewController.swift */,
+				2433756023E0B07800F7C0A6 /* ForgotPassSecondViewController.swift */,
+				2433756223E0B08A00F7C0A6 /* ForgotPassThirdViewController.swift */,
+				2436575223DF5C9C0003C770 /* ForgotPassword.storyboard */,
+				2433756623E0B95000F7C0A6 /* ForgotPassFourthViewController.swift */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		24D83A3023D62A3F00BCC38B /* Staff */ = {
+			isa = PBXGroup;
+			children = (
+				24F9CA6623B27F4D00BE9F5E /* AddStaffViewController.swift */,
+				243A9AF823D4AC27002E3403 /* AddStaff.storyboard */,
+				24D83A3123D62AAD00BCC38B /* StaffListTableViewCell.swift */,
+				24D83A3323D6346A00BCC38B /* StaffViewController.swift */,
+				2434202A23D757D3006A8ADD /* StaffModel.swift */,
+				2450D7E623D8C58100E1E6D3 /* AccessUserViewController.swift */,
+				2450D7E823D8C94200E1E6D3 /* GardenViewController.swift */,
+				2450D7EA23D8CA4800E1E6D3 /* GarenViewTableViewCell.swift */,
+				24499DD823DE2CDB00367E28 /* WebViewController.swift */,
+				2439CE5323E6B5B600C6CB9B /* DemoAddStaffViewController.swift */,
+				2439E734241CE6E90032D4E0 /* ReportsTableViewCell.swift */,
+				2439E736241CE71A0032D4E0 /* SheetTableViewCell.swift */,
+			);
+			path = Staff;
+			sourceTree = "<group>";
+		};
+		24FA13B923B36A6D00D5DEB2 /* GardernDetail */ = {
+			isa = PBXGroup;
+			children = (
+				24FA13BA23B36A9A00D5DEB2 /* HeaderTableViewCell.swift */,
+				24FA13BC23B36C6F00D5DEB2 /* ButtonTableViewCell.swift */,
+				24FB71C423BD039300FE4499 /* GardenModel.swift */,
+				247067C823C0CB7C00BBDCB8 /* NewStoryboard.storyboard */,
+				2459644D240AAF4A00E2E2BD /* SubscriptionPopUpViewController.swift */,
+			);
+			path = GardernDetail;
+			sourceTree = "<group>";
+		};
+		2FF858572E5BC2611EEB6ED6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFA80AC68DA9B5D92AA748B9 /* Pods-Tea Garden.debug.xcconfig */,
+				F21F0A0B23773C91121EED74 /* Pods-Tea Garden.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		241E1CC72358E9F5003ADFB8 /* Tea Garden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241E1CF02358E9F6003ADFB8 /* Build configuration list for PBXNativeTarget "Tea Garden" */;
+			buildPhases = (
+				B2775CA88F8CA744DEF4B000 /* [CP] Check Pods Manifest.lock */,
+				241E1CC42358E9F5003ADFB8 /* Sources */,
+				241E1CC52358E9F5003ADFB8 /* Frameworks */,
+				241E1CC62358E9F5003ADFB8 /* Resources */,
+				7DA65969483DB569107D6B49 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tea Garden";
+			productName = "Tea Garden";
+			productReference = 241E1CC82358E9F5003ADFB8 /* Zovini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		241E1CDB2358E9F6003ADFB8 /* Tea GardenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241E1CF32358E9F6003ADFB8 /* Build configuration list for PBXNativeTarget "Tea GardenTests" */;
+			buildPhases = (
+				241E1CD82358E9F6003ADFB8 /* Sources */,
+				241E1CD92358E9F6003ADFB8 /* Frameworks */,
+				241E1CDA2358E9F6003ADFB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				241E1CDE2358E9F6003ADFB8 /* PBXTargetDependency */,
+			);
+			name = "Tea GardenTests";
+			productName = "Tea GardenTests";
+			productReference = 241E1CDC2358E9F6003ADFB8 /* Tea GardenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		241E1CE62358E9F6003ADFB8 /* Tea GardenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241E1CF62358E9F6003ADFB8 /* Build configuration list for PBXNativeTarget "Tea GardenUITests" */;
+			buildPhases = (
+				241E1CE32358E9F6003ADFB8 /* Sources */,
+				241E1CE42358E9F6003ADFB8 /* Frameworks */,
+				241E1CE52358E9F6003ADFB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				241E1CE92358E9F6003ADFB8 /* PBXTargetDependency */,
+			);
+			name = "Tea GardenUITests";
+			productName = "Tea GardenUITests";
+			productReference = 241E1CE72358E9F6003ADFB8 /* Tea GardenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		241E1CC02358E9F5003ADFB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Vandana Negi";
+				TargetAttributes = {
+					241E1CC72358E9F5003ADFB8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					241E1CDB2358E9F6003ADFB8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 241E1CC72358E9F5003ADFB8;
+					};
+					241E1CE62358E9F6003ADFB8 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 241E1CC72358E9F5003ADFB8;
+					};
+				};
+			};
+			buildConfigurationList = 241E1CC32358E9F5003ADFB8 /* Build configuration list for PBXProject "Tea Garden" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 241E1CBF2358E9F5003ADFB8;
+			productRefGroup = 241E1CC92358E9F5003ADFB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				241E1CC72358E9F5003ADFB8 /* Tea Garden */,
+				241E1CDB2358E9F6003ADFB8 /* Tea GardenTests */,
+				241E1CE62358E9F6003ADFB8 /* Tea GardenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		241E1CC62358E9F5003ADFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241E1CD62358E9F6003ADFB8 /* LaunchScreen.storyboard in Resources */,
+				243A9AF923D4AC27002E3403 /* AddStaff.storyboard in Resources */,
+				24066D3A23982A2F006FA5DB /* Localizable.strings in Resources */,
+				241E1CD32358E9F6003ADFB8 /* Assets.xcassets in Resources */,
+				247067C923C0CB7C00BBDCB8 /* NewStoryboard.storyboard in Resources */,
+				2436575323DF5C9C0003C770 /* ForgotPassword.storyboard in Resources */,
+				241E1CD12358E9F5003ADFB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241E1CDA2358E9F6003ADFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241E1CE52358E9F6003ADFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DA65969483DB569107D6B49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tea Garden/Pods-Tea Garden-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tea Garden/Pods-Tea Garden-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tea Garden/Pods-Tea Garden-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2775CA88F8CA744DEF4B000 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tea Garden-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		241E1CC42358E9F5003ADFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FA13B823B3600D00D5DEB2 /* GardenDetailViewController.swift in Sources */,
+				2459644C240AAE1C00E2E2BD /* CominSoonPopUpViewController.swift in Sources */,
+				2433756523E0B6BC00F7C0A6 /* SelectDaysViewController.swift in Sources */,
+				2433755F23E0967400F7C0A6 /* ForgotViewController.swift in Sources */,
+				24FA13BD23B36C6F00D5DEB2 /* ButtonTableViewCell.swift in Sources */,
+				2433756323E0B08A00F7C0A6 /* ForgotPassThirdViewController.swift in Sources */,
+				2450D7EB23D8CA4800E1E6D3 /* GarenViewTableViewCell.swift in Sources */,
+				2459644E240AAF4A00E2E2BD /* SubscriptionPopUpViewController.swift in Sources */,
+				24F7735823A947E200BE4C4F /* CustomTextField.swift in Sources */,
+				24F7735623A943C900BE4C4F /* SelectDateViewController.swift in Sources */,
+				24FD710E2396CD8900D41907 /* PurchaseViewController.swift in Sources */,
+				24F9CA6923B2901A00BE9F5E /* AddGardenViewController.swift in Sources */,
+				2419452E2360CBAF00FAF7F2 /* Constants.swift in Sources */,
+				24FA13BF23B36F7300D5DEB2 /* SelectMonthViewController.swift in Sources */,
+				24FA13B623B3569700D5DEB2 /* ChangePasswordViewController.swift in Sources */,
+				2439E735241CE6E90032D4E0 /* ReportsTableViewCell.swift in Sources */,
+				2450D7E923D8C94200E1E6D3 /* GardenViewController.swift in Sources */,
+				24050A2723B6700300DD3BC5 /* LoginModel.swift in Sources */,
+				2434202B23D757D3006A8ADD /* StaffModel.swift in Sources */,
+				24D83A3423D6346A00BCC38B /* StaffViewController.swift in Sources */,
+				24382FAB23688BE700D96FA2 /* DashboardViewController.swift in Sources */,
+				24FC79C72393EA7300D1539A /* CustomButton.swift in Sources */,
+				24FC79C923943E1B00D1539A /* NewLoginViewController.swift in Sources */,
+				2439CE5423E6B5B600C6CB9B /* DemoAddStaffViewController.swift in Sources */,
+				24499DD923DE2CDB00367E28 /* WebViewController.swift in Sources */,
+				24D83A3223D62AAD00BCC38B /* StaffListTableViewCell.swift in Sources */,
+				2433756123E0B07800F7C0A6 /* ForgotPassSecondViewController.swift in Sources */,
+				24FB71C523BD039300FE4499 /* GardenModel.swift in Sources */,
+				24FA13BB23B36A9A00D5DEB2 /* HeaderTableViewCell.swift in Sources */,
+				2450D7E723D8C58100E1E6D3 /* AccessUserViewController.swift in Sources */,
+				2439E737241CE71A0032D4E0 /* SheetTableViewCell.swift in Sources */,
+				2438221C23AFF5450072EC6F /* SettingsViewController.swift in Sources */,
+				24382FAD2368A2C100D96FA2 /* WebService.swift in Sources */,
+				24CFF906235E2F02008C9909 /* SignUpViewController.swift in Sources */,
+				241E1CCC2358E9F5003ADFB8 /* AppDelegate.swift in Sources */,
+				2433756723E0B95000F7C0A6 /* ForgotPassFourthViewController.swift in Sources */,
+				24066D3823982988006FA5DB /* Utility.swift in Sources */,
+				2438221A23AFEC810072EC6F /* ContentView.swift in Sources */,
+				24F9CA6723B27F4D00BE9F5E /* AddStaffViewController.swift in Sources */,
+				240A5AD22392EB3100B2EF0E /* BaseViewController.swift in Sources */,
+				24382FA92368836900D96FA2 /* LoginViewController.swift in Sources */,
+				24CFF908235E3C77008C9909 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241E1CD82358E9F6003ADFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241E1CE12358E9F6003ADFB8 /* Tea_GardenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241E1CE32358E9F6003ADFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241E1CEC2358E9F6003ADFB8 /* Tea_GardenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		241E1CDE2358E9F6003ADFB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 241E1CC72358E9F5003ADFB8 /* Tea Garden */;
+			targetProxy = 241E1CDD2358E9F6003ADFB8 /* PBXContainerItemProxy */;
+		};
+		241E1CE92358E9F6003ADFB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 241E1CC72358E9F5003ADFB8 /* Tea Garden */;
+			targetProxy = 241E1CE82358E9F6003ADFB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		241E1CCF2358E9F5003ADFB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241E1CD02358E9F5003ADFB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		241E1CD42358E9F6003ADFB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241E1CD52358E9F6003ADFB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		241E1CEE2358E9F6003ADFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		241E1CEF2358E9F6003ADFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		241E1CF12358E9F6003ADFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA80AC68DA9B5D92AA748B9 /* Pods-Tea Garden.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Tea Garden/Tea Reporting.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = LPHGQMH4A9;
+				INFOPLIST_FILE = "Tea Garden/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingwalk.TeaGarden;
+				PRODUCT_NAME = Zovini;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		241E1CF22358E9F6003ADFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F21F0A0B23773C91121EED74 /* Pods-Tea Garden.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Tea Garden/Tea Reporting.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = LPHGQMH4A9;
+				INFOPLIST_FILE = "Tea Garden/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingwalk.TeaGarden;
+				PRODUCT_NAME = Zovini;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		241E1CF42358E9F6003ADFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tea GardenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codingwalk.Tea-GardenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tea Garden.app/Tea Garden";
+			};
+			name = Debug;
+		};
+		241E1CF52358E9F6003ADFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tea GardenTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codingwalk.Tea-GardenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tea Garden.app/Tea Garden";
+			};
+			name = Release;
+		};
+		241E1CF72358E9F6003ADFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tea GardenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codingwalk.Tea-GardenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tea Garden";
+			};
+			name = Debug;
+		};
+		241E1CF82358E9F6003ADFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tea GardenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codingwalk.Tea-GardenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tea Garden";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		241E1CC32358E9F5003ADFB8 /* Build configuration list for PBXProject "Tea Garden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241E1CEE2358E9F6003ADFB8 /* Debug */,
+				241E1CEF2358E9F6003ADFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241E1CF02358E9F6003ADFB8 /* Build configuration list for PBXNativeTarget "Tea Garden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241E1CF12358E9F6003ADFB8 /* Debug */,
+				241E1CF22358E9F6003ADFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241E1CF32358E9F6003ADFB8 /* Build configuration list for PBXNativeTarget "Tea GardenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241E1CF42358E9F6003ADFB8 /* Debug */,
+				241E1CF52358E9F6003ADFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241E1CF62358E9F6003ADFB8 /* Build configuration list for PBXNativeTarget "Tea GardenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241E1CF72358E9F6003ADFB8 /* Debug */,
+				241E1CF82358E9F6003ADFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 241E1CC02358E9F5003ADFB8 /* Project object */;
+}

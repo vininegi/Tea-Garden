@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Tea Garden
+
+  Created by Vandana Negi on 04/12/19.
+  Copyright © 2019 Vandana Negi. All rights reserved.
+*/
+
+//validation texts
+"enter_name" = "Please enter name";
+"enter_username" = "Please enter username";
+"enter_password" = "Please enter password";
+"password_match" = "Password and confirm password doesn't match.";
+
+
